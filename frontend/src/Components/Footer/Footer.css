@@ -1,0 +1,42 @@
+.footer{
+    margin: 0% 10%;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    display: grid;
+    grid-template-columns: auto 30% 20%;
+    justify-content: center;
+    align-items: baseline;
+    padding: 2%;
+}
+
+
+.footer-left{
+    width: 70%;
+}
+
+.footer-social-icon img{
+    margin: 0% 2%;
+}
+
+.footer li{
+    list-style: none;
+    margin-left: -12%;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .footer{
+        margin: 0px ;
+        grid-template-columns: auto;
+        text-align: left;
+        
+    }
+
+
+
+    .footer-left{
+        width:100%;
+    }
+
+}

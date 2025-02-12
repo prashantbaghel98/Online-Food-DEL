@@ -1,0 +1,45 @@
+.explorer-menu{
+    text-align: center;
+}
+
+.explorer-menu h1{
+    font-weight: 500;
+}
+
+.menu-list{
+    display: flex;
+    gap: 2%;
+    overflow-x: scroll;
+    justify-content: start;
+}
+
+.menu-list::-webkit-scrollbar{
+    display: none;
+}
+
+.menu-list-single-item p{
+    cursor: pointer;
+}
+
+.menu-list-single-item img{
+    height: 150px;
+    cursor: pointer;
+}
+
+.menu-list-single-item .active{
+    border-radius: 50%;
+    padding: 2%;
+    border: 3px solid tomato; 
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+
+
+
+
+
+}

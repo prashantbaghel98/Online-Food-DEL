@@ -1,0 +1,159 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0% 10%;
+}
+
+.nav-middle ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.nav-right {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.nav-right img {
+    height: 25px;
+}
+
+.btn {
+    margin-left: 2%;
+    height: 30px;
+    width: 80px;
+    border-style: solid;
+    border-radius: 10px;
+
+}
+
+.active {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+
+.dot {
+    position: absolute;
+    left: 1270px;
+    background-color: tomato;
+    border-radius: 50%;
+    min-width: 10px;
+    min-height: 10px;
+}
+
+
+
+
+.btn {
+    background-color: tomato;
+    width: 90px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #tomato;
+  }
+  
+  .navbar-profile {
+    position: relative;
+    display: inline-block;
+}
+
+.nav-profile-dropdown {
+    display: none;
+    width: 150px;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+  }
+  
+  .navbar-profile:hover .nav-profile-dropdown {
+    display: block;
+  }
+  
+  .nav-profile-dropdown li {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 0px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-profile-dropdown li:hover {
+    background-color: #f1f1f1;
+    color: tomato;
+  }
+  
+  .nav-profile-dropdown img {
+    margin-right: 0px;
+  }
+  
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    nav {
+        margin: 2%;
+        
+
+    }
+
+    .nav-logo img {
+        height: 25px;
+    }
+
+    .nav-middle {
+        display: none;
+    }
+
+    .nav-right img {
+        display: flex;
+        gap: 10px;
+    }
+
+    .btn {
+        margin: 0px 5px;
+    }
+
+
+    .dot {
+        position: absolute;
+        left: 275px;
+        background-color: tomato;
+        border-radius: 50%;
+        min-width: 10px;
+        min-height: 10px;
+    }
+
+
+}
+
+a:link {
+    text-decoration: none;
+}
